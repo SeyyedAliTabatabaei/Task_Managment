@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.framework.networkimport com.google.gson.JsonObjectimport retrofit2.http.*interface ApiService {}

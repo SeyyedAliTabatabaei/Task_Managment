@@ -1,0 +1,1 @@
+package ir.gonabad.core.domaindata class ErrorResponse(    val status: String? ,    val message : String? ,    val meta : Any? ,    val data : Any?)

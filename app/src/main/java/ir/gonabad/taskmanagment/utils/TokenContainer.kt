@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.utilsobject TokenContainer {    var token: String? = null        private set    var tokenVersion : String? = null        private set    fun update(token: String?, tokenVersion: String?) {        TokenContainer.token = token        TokenContainer.tokenVersion = tokenVersion    }}
