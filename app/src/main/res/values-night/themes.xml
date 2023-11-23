@@ -11,6 +11,7 @@
         <item name="backgroundCard">@color/black</item>
         <item name="IconColor">@color/white</item>
         <item name="android:statusBarColor">@color/black</item>
+        <item name="fontFamily">@font/iran_medium</item>
 
     </style>
 </resources>
