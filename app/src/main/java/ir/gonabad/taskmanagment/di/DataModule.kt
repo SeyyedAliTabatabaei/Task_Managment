@@ -8,6 +8,8 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
+import ir.gonabad.taskmanagment.di.qualifier.MainOkHttpClient
+import ir.gonabad.taskmanagment.di.qualifier.MainRetrofit
 import okhttp3.OkHttpClient
 import ir.gonabad.taskmanagment.framework.network.ApiService
 import ir.gonabad.taskmanagment.utils.Constants

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Task Managment</string>
+
+    <string name="add_category">افزودن دسته بندی</string>
 </resources>

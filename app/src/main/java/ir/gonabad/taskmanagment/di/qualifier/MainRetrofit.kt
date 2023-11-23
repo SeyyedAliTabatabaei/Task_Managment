@@ -1,4 +1,4 @@
-package ir.gonabad.taskmanagment.di
+package ir.gonabad.taskmanagment.di.qualifier
 
 import java.lang.annotation.Documented
 import java.lang.annotation.Retention
@@ -8,4 +8,5 @@ import javax.inject.Qualifier
 @Qualifier
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-annotation class MainOkHttpClient()
+annotation class MainRetrofit {
+}
