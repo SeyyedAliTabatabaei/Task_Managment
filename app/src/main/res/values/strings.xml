@@ -21,4 +21,9 @@
     <string name="user_side">سمت کاربر</string>
     <string name="user">کاربر</string>
     <string name="admin">مدیر</string>
+    <string name="name">نام</string>
+    <string name="edit_user">ویرایش کاربر</string>
+    <string name="enable_user">فعال کردن کاربر</string>
+    <string name="disable_user">غیرفعال کردن کاربر</string>
+    <string name="assign_to">اختصاص دادن کار به </string>
 </resources>
