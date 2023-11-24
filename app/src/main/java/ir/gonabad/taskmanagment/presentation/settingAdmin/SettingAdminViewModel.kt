@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.presentation.settingAdminimport dagger.hilt.android.lifecycle.HiltViewModelimport ir.gonabad.taskmanagment.utils.BaseViewModelimport javax.inject.Inject@HiltViewModelclass SettingAdminViewModel @Inject constructor() : BaseViewModel() {}

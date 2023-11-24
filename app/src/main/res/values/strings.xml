@@ -4,4 +4,21 @@
     <string name="add_category">افزودن دسته بندی</string>
     <string name="add">افزودن</string>
     <string name="name_category">نام دسته بندی</string>
+    <string name="task_list">لیست کارها</string>
+    <string name="add_task">ثبت کار</string>
+    <string name="edit_task">ویرایش کار</string>
+    <string name="title">عنوان</string>
+    <string name="description">توضیحات</string>
+    <string name="status">وضعیت</string>
+    <string name="todo">برای انجام دادن</string>
+    <string name="doing">درحال انجام</string>
+    <string name="don">انجام شد</string>
+    <string name="admin_setting">تنظیمات مدیر</string>
+    <string name="add_user">افزودن کاربر ٬مدیر</string>
+    <string name="user_list">لیست کاربران</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز ورود</string>
+    <string name="user_side">سمت کاربر</string>
+    <string name="user">کاربر</string>
+    <string name="admin">مدیر</string>
 </resources>

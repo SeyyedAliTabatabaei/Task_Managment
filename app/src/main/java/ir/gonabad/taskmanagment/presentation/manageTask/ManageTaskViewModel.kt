@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.presentation.manageTaskimport dagger.hilt.android.AndroidEntryPointimport dagger.hilt.android.HiltAndroidAppimport dagger.hilt.android.lifecycle.HiltViewModelimport ir.gonabad.taskmanagment.utils.BaseViewModelimport javax.inject.Inject@HiltViewModelclass ManageTaskViewModel @Inject constructor() : BaseViewModel() {}
