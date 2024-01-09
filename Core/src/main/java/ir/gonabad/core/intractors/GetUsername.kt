@@ -1,0 +1,1 @@
+package ir.gonabad.core.intractorsimport ir.gonabad.core.data.UserRepositoryclass GetUsername(private val userRepository: UserRepository) {    operator fun invoke() = userRepository.getUsername()}

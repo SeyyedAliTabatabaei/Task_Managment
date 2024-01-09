@@ -1,0 +1,1 @@
+package ir.gonabad.core.dataimport ir.gonabad.core.domain.login.Logininterface UserLocalDataSource {    fun setToken(token : String)    fun getToken()    fun setType(type : String)    fun getType()    fun setUsername(username : String)    fun getUsername()}

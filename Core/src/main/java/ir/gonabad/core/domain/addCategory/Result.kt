@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.addCategorydata class Result(    val id: String,    val title: String)

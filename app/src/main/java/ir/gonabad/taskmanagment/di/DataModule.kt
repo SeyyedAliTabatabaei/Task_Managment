@@ -38,9 +38,7 @@ class DataModule {
 //                if (TokenContainer.token != null)
 //                    newRequestBuilder.addHeader("Authorization" , "Bearer ${TokenContainer.token}")
 //
-//                newRequestBuilder.addHeader("Content-Type" , "application/json")
-//                newRequestBuilder.addHeader("X-API-KEY" , Constants.API_KEY)
-//                newRequestBuilder.addHeader("app" , Constants.App)
+                newRequestBuilder.addHeader("Content-Type" , "application/json")
 
                 newRequestBuilder.method(oldRequest.method, oldRequest.body)
 

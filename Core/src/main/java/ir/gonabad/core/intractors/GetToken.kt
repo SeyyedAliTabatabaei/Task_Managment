@@ -1,0 +1,1 @@
+package ir.gonabad.core.intractorsimport ir.gonabad.core.data.UserRepositoryclass GetToken(private val userRepository: UserRepository) {    operator fun invoke() = userRepository.getToken()}

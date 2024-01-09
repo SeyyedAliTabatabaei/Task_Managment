@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.deleteCategorydata class DeleteCategoryResponse(    val result: String,    val status: String)

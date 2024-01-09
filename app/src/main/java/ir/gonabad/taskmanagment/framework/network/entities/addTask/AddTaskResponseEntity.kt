@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.framework.network.entities.addTaskdata class AddTaskResponseEntity(    val result: ResultAddTaskEntity,    val status: String)

@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.addCategorydata class AddCategoryResponse(    val result: Result,    val status: String)

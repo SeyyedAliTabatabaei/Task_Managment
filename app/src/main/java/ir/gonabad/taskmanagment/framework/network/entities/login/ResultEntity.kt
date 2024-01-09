@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.framework.network.entities.logindata class ResultEntity(    val key: String,    val password: String,    val type: String,    val username: String)

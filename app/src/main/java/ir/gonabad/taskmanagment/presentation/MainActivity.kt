@@ -7,6 +7,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import ir.gonabad.taskmanagment.R
 import ir.gonabad.taskmanagment.databinding.ActivityMainBinding
 import ir.gonabad.taskmanagment.utils.BaseActivity
+import ir.gonabad.taskmanagment.utils.UserInfoContainer
 
 @AndroidEntryPoint
 class MainActivity : BaseActivity() {
@@ -21,6 +22,10 @@ class MainActivity : BaseActivity() {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.fcv_main_container) as NavHostFragment
         val navController = navHostFragment.navController
 
-        navController.setGraph(R.navigation.nav_home)
+        if (UserInfoContainer.token == null){
+            navController.setGraph(R.navigation.nav_auth)
+        } else {
+            navController.setGraph(R.navigation.nav_home)
+        }
     }
 }

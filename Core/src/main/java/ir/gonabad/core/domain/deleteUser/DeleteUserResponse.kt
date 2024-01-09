@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.deleteUserdata class DeleteUserResponse(    val result: String,    val status: String)

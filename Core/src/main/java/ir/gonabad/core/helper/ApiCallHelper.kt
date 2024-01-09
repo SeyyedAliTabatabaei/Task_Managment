@@ -83,7 +83,7 @@ class ApiCallHelper {
 
         private fun extractErrorMessage(ex: HttpException): ErrorResponse {
             return if (ex.response()?.errorBody()!=null) Gson().fromJson(ex.response()?.errorBody()?.string().toString() , ErrorResponse::class.java)
-                else ErrorResponse("ERROR_BODY_IS_NULL" , ex.message.toString() , null , null )
+                else ErrorResponse("ERROR_BODY_IS_NULL" , ex.message.toString())
         }
     }
 }

@@ -9,12 +9,14 @@
     <string name="edit_task">ویرایش کار</string>
     <string name="title">عنوان</string>
     <string name="description">توضیحات</string>
+    <string name="days_end">مدت زمان انجام کار (تعداد روز)</string>
     <string name="status">وضعیت</string>
     <string name="todo">برای انجام دادن</string>
     <string name="doing">درحال انجام</string>
     <string name="don">انجام شد</string>
     <string name="admin_setting">تنظیمات مدیر</string>
     <string name="add_user">افزودن کاربر ٬مدیر</string>
+    <string name="add_user_success">افزودن کاربر با موفقیت انجام شد</string>
     <string name="user_list">لیست کاربران</string>
     <string name="username">نام کاربری</string>
     <string name="password">رمز ورود</string>
@@ -23,7 +25,15 @@
     <string name="admin">مدیر</string>
     <string name="name">نام</string>
     <string name="edit_user">ویرایش کاربر</string>
-    <string name="enable_user">فعال کردن کاربر</string>
-    <string name="disable_user">غیرفعال کردن کاربر</string>
+    <string name="delete_user">حذف کاربر</string>
     <string name="assign_to">اختصاص دادن کار به </string>
+    <string name="login">ورود</string>
+    <string name="signup">ثبت نام</string>
+    <string name="field_not_empty">این فیلد نمیتواند خالی باشد</string>
+    <string name="error_server">خطا در ارتباط با سرور</string>
+    <string name="add_category_success">افزودن دسته بندی با موفقیت انجام شد</string>
+    <string name="edit_category">ویرایش دسته بندی</string>
+    <string name="delet_category">حذف دسته بندی</string>
+    <string name="select_your_users">لطفا کاربران موردنظر را انتخاب کنید</string>
+    <string name="add_task_success">افزودن تسک با موفقیت انجام شد</string>
 </resources>

@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.listUserdata class UserListResponse(    val result: List<List<String>>,    val status: String)

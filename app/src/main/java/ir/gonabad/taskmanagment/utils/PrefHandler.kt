@@ -9,26 +9,12 @@ class PrefHandler @Inject constructor(val application: Application) {
     private lateinit var sharedPref: SharedPreferences
     private val PREF_NAME = "step_counter_pref"
     val KEY_TOKEN = "token"
-    val KEY_TOKEN_VERSION = "token_version"
+    val KEY_TYPE = "type"
+    val KEY_USERNAME = "username"
     val KEY_USER_INFO = "user_info"
 
     init {
         sharedPref = application.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
-    }
-
-    fun setToken(token : String , tokenVersion : String) {
-        val editor: SharedPreferences.Editor = sharedPref.edit()
-        editor.apply {
-            putString(KEY_TOKEN , token)
-            putString(KEY_TOKEN_VERSION , tokenVersion)
-        }.apply()
-    }
-
-    fun getToken(){
-        TokenContainer.update(
-            sharedPref.getString(KEY_TOKEN, ""),
-            sharedPref.getString(KEY_TOKEN_VERSION, "")
-        )
     }
 
     fun setPreference(key: String?, value: Any?) {

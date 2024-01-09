@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.logindata class Result(    val key: String,    val password: String,    val type: String,    val username: String)

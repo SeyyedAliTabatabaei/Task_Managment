@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.framework.network.entities.addCategorydata class AddCategoryResponseEntity(    val result: ResultEntity,    val status: String)

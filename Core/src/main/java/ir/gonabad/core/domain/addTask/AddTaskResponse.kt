@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.addTaskdata class AddTaskResponse(    val result: ResultAddTask,    val status: String)

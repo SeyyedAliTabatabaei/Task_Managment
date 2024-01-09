@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.framework.network.entities.deleteCategorydata class DeleteCategoryResponseEntity(    val result: String,    val status: String)
