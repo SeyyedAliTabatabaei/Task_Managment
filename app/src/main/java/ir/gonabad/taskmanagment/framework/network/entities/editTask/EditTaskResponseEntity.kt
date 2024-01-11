@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.framework.network.entities.editTaskimport ir.gonabad.taskmanagment.framework.network.entities.ItemTaskEntitydata class EditTaskResponseEntity(    val result: ItemTaskEntity,    val status: String)

@@ -1,1 +1,1 @@
-package ir.gonabad.taskmanagment.framework.network.entities.categorydata class CategoryListEntity(    val result: List<List<String>>,    val status: String)
+package ir.gonabad.taskmanagment.framework.network.entities.categorydata class CategoryListEntity(    val result: List<ItemCategoryEntity>,    val status: String)

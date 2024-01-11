@@ -7,9 +7,11 @@
     <string name="task_list">لیست کارها</string>
     <string name="add_task">ثبت کار</string>
     <string name="edit_task">ویرایش کار</string>
+    <string name="edit_task_success">ویرایش تسک با موفقیت انجام شد</string>
+    <string name="delete_task">حذف کار</string>
     <string name="title">عنوان</string>
     <string name="description">توضیحات</string>
-    <string name="days_end">مدت زمان انجام کار (تعداد روز)</string>
+    <string name="days_end">مهلت انجام(تا تاریخ)</string>
     <string name="status">وضعیت</string>
     <string name="todo">برای انجام دادن</string>
     <string name="doing">درحال انجام</string>
@@ -36,4 +38,10 @@
     <string name="delet_category">حذف دسته بندی</string>
     <string name="select_your_users">لطفا کاربران موردنظر را انتخاب کنید</string>
     <string name="add_task_success">افزودن تسک با موفقیت انجام شد</string>
+    <string name="confirm">تایید</string>
+    <string name="create_date">تاریخ ایجاد</string>
+    <string name="ending_date">تاریخ پایان</string>
+    <string name="show_all">نمایش همه</string>
+    <string name="list_is_empty">موردی برای نمایش وجود ندارد</string>
+    <string name="today">امروز</string>
 </resources>

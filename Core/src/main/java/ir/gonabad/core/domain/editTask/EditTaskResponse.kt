@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.editTaskimport ir.gonabad.core.domain.ItemTaskdata class EditTaskResponse(    val result: ItemTask,    val status: String)

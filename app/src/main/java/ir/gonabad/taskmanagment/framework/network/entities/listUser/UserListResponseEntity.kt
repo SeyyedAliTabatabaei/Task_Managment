@@ -1,1 +1,1 @@
-package ir.gonabad.taskmanagment.framework.network.entities.listUserdata class UserListResponseEntity(    val result: List<List<String>>,    val status: String)
+package ir.gonabad.taskmanagment.framework.network.entities.listUserdata class UserListResponseEntity(    val result: List<UserListEntity>,    val status: String)

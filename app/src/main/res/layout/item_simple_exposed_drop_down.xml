@@ -16,7 +16,8 @@
         android:textColor="?android:textColorSecondary"
         style="@style/ExposedDropDownMenuItem"
         android:paddingHorizontal="8dp"
-        android:maxLines="2"
-        android:gravity="center_vertical"/>
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:singleLine="true" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

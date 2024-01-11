@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.deleteTaskdata class DeleteTaskResponse(    val result: String,    val status: String)

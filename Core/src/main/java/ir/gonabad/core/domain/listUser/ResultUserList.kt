@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.listUserdata class ResultUserList(    val key: String,    val password: String,    val type: String,    val username: String)

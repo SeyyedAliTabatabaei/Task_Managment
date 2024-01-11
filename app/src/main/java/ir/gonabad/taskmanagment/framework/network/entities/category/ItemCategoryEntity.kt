@@ -1,0 +1,1 @@
+package ir.gonabad.taskmanagment.framework.network.entities.categorydata class ItemCategoryEntity(    val id: String,    val owner: String,    val title: String)

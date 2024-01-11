@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.listTaskimport ir.gonabad.core.domain.ItemTaskdata class TaskListResponse(    val result: List<ItemTask>,    val status: String)

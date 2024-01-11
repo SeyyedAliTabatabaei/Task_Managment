@@ -14,9 +14,7 @@ class ExposedDropDownMenuCustomAdapter(
     private val itemResIdLayout: Int,
     textViewResId: Int,
     private val contentArray: List<String>,
-    @DrawableRes private val selectedItemBackgroundColor : Int,
     private val ltrTextDirection:Boolean = false,
-    private val iconListResIds:List<Int>? = null
 ) : ArrayAdapter<String>(myContext, itemResIdLayout, textViewResId, contentArray) {
 
     private var selectedItemPosition = 0
@@ -45,7 +43,6 @@ class ExposedDropDownMenuCustomAdapter(
             val view = LayoutInflater.from(parent.context)
                 .inflate(itemResIdLayout, parent, false)
             val textView = view.findViewById<TextViewMedium>(R.id.tv_itemExposedDropDownMenu_item)
-            textView.setTextColor(context.getColor(R.color.white))
             textView.text = contentArray[position]
             if (ltrTextDirection) textView.textDirection = View.TEXT_DIRECTION_LTR
             selectedView = false

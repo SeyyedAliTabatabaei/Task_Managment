@@ -1,0 +1,1 @@
+package ir.gonabad.core.domain.listCategorydata class ItemCategory(    val id: String,    val owner: String,    val title: String)

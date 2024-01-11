@@ -1,1 +1,1 @@
-package ir.gonabad.core.domain.listCategorydata class CategoryList(    val result: List<List<String>>,    val status: String)
+package ir.gonabad.core.domain.listCategorydata class CategoryList(    val result: List<ItemCategory>,    val status: String)

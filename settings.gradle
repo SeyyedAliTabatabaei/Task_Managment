@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Task Managment"
 include ':app'
 include ':Core'
+include ':persiandate'
