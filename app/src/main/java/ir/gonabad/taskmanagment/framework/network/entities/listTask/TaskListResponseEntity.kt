@@ -1,1 +1,1 @@
-package ir.gonabad.taskmanagment.framework.network.entities.listTaskimport ir.gonabad.taskmanagment.framework.network.entities.ItemTaskEntitydata class TaskListResponseEntity(    val result: List<ItemTaskEntity>,    val status: String)
+package ir.gonabad.taskmanagment.framework.network.entities.listTaskimport ir.gonabad.taskmanagment.framework.network.entities.ItemTaskEntitydata class TaskListResponseEntity(    val result: List<ItemTaskEntity>,    val status: String ,)
