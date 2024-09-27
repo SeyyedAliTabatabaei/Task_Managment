@@ -3,7 +3,7 @@ package ir.gonabad.taskmanagment.utils
 
 object Constants {
 
-    val baseUrl = "https://amircr.com/restAPI/v1/"
+    val baseUrl = "https://vpnmanager.link/uniAPI/v1/"
 
     val mediumFont = "fonts/iran_medium.ttf"
     val boldFont = "fonts/iran_bold.ttf"
